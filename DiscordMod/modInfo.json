@@ -1,0 +1,11 @@
+﻿[
+  {
+    "name": "Dids.Discord",
+    "version": "0.1.0",
+    "dllpath":  "Dids.Discord.dll",
+    "enabled": true,
+    "compatibleversions": [
+      "0.7.0"
+    ]
+  }
+]

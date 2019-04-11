@@ -1,0 +1,87 @@
+# Visual Studio
+.vs/
+
+# Certificates, private keys etc.
+*.pem
+*.p12
+*.pkey
+
+# Android Resource Designer
+Resource.designer.cs
+
+# Android Keystore
+*.keystore
+
+# github-changelog-generator
+#CHANGELOG*.md
+
+# Screenshots
+.scripts/*.png
+
+# Backups
+*.bak
+
+# RealmWeaver
+Tools/RealmWeaver.Fody.dll
+
+# Log files
+*.log
+
+# fastlane specific
+fastlane/*.xml
+
+# deliver temporary files
+fastlane/*.html
+
+# snapshot generated screenshots
+fastlane/screenshots/screenshots.html
+#fastlane/screenshots/en-US/*.png
+
+# scan temporary files
+fastlane/test_output
+
+*.dSYM.zip
+*.dSYM
+*.ipa
+
+# Autosave files
+*~
+
+# build
+[Oo]bj/
+[Bb]in/
+packages/
+TestResults/
+TestResult*.xml
+
+# globs
+Makefile.in
+*.DS_Store
+*.sln.cache
+*.suo
+*.cache
+*.pidb
+*.userprefs
+*.usertasks
+config.log
+config.make
+config.status
+aclocal.m4
+install-sh
+autom4te.cache/
+*.user
+*.tar.gz
+tarballs/
+test-results/
+Thumbs.db
+
+# Mac bundle stuff
+*.dmg
+*.app
+
+# resharper
+*_Resharper.*
+*.Resharper
+
+# dotCover
+*.dotCover
